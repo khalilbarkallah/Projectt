@@ -1,0 +1,114 @@
+ .main-container{
+  background: #9b9b9b;
+  margin-top: -50px;
+
+
+ }
+
+
+
+.row {
+  margin-top: 50px;
+}
+
+
+.card-img {
+
+  background-image: url('../../../public/foldera.png');
+  width: 120px;
+  height: 120px;
+   background-size: cover;
+   margin-left: 70px;
+}
+
+.card-title {
+  margin-top: 30px;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  color: #494545;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+display: inline-block; 
+  width: 20%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  width: 250px;
+  height: 280px;
+  margin-top: 30px;
+  background-color: #b6b6b6;
+   border-radius: 5px;
+  margin-left :20px;
+  box-shadow: 4px 4px 20px rgb(1, 1, 1);
+
+  
+
+}
+
+.btn button {
+  padding: 00.5rem;
+    background: #d1d1dd;
+
+    border: none;
+  transition: 0.2s;
+  font-size:14px;
+  width: 150px;
+}
+
+.btn button:hover {
+  background: #211f1f;
+
+}
+
+a {
+  text-transform: uppercase;
+  color: rgb(11, 14, 14);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.titre-header {
+  color: #211f1f;
+  left: 10px;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 50px;
+  margin-top: 100px;
+
+}
+
+.btn-containerr{
+background-color: #211f1f;
+  width: 200px;
+  font-size: 17px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+   margin-left: -300px;
+}
+.titre1{
+  display: inline;
+ }
+.btn1{
+  display:inline;
+}

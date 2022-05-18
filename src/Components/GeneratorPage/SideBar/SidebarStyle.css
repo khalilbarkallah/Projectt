@@ -1,0 +1,85 @@
+
+ .toolbar {
+   position: relative;
+    width: 200px;
+    margin-left: 20px;
+  
+
+ 
+ }
+ .Titlee {
+  
+
+    color:white;
+    background-color: rgb(33, 23, 23);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ .toolbar  ul {
+    height: 530px;
+    overflow-y: scroll;
+     position: relative;
+     background-color: #9b9b9b;
+
+
+ }
+ .toolbar ul li {
+   margin-left: 10px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px;
+
+    width: 90%;
+    box-shadow:  0 5px 25px rgba (0,0,0,.1);
+    transition : transform 0.5s ;
+ }
+
+ .toolbar ul li span {
+ 
+    text-align: center;
+ 
+    color:black;
+    display: inline-block;
+  
+    margin-right: 10px;
+    font-size: 20px;
+ 
+
+
+}
+.toolbar ul li span:hover {
+ 
+   text-align: center;
+
+   color:white;
+   display: inline-block;
+ 
+   margin-right: 10px;
+   font-size: 20px;
+
+
+
+}
+
+.btnn {
+
+    list-style: none;
+    padding: 10px;
+    color: rgb(21, 20, 19);
+    width: 100%;
+    background-color:#e7e7e7;
+    box-shadow:  0 5px 25px rgba (0,0,0,.1);
+    transition : transform 0.5s ;
+}
+.btnn:hover {
+
+
+   transform:  scale(1.1);
+   z-index: 100;
+ 
+
+   box-shadow: 0 5px 25px rgba (0,0,0,.2);
+}

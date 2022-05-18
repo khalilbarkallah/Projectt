@@ -1,0 +1,14 @@
+.btn-main {
+    position: relative;
+    margin-left: auto;
+    margin-right: 25px;
+    width: 240px;
+}
+.btn-config {
+ position: relative;
+  width: 110px;
+  height: 30px;  
+  color: #9b9b9b;
+  font-size: 15px; 
+  margin-left: 5px;
+}
